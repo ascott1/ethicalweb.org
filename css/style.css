@@ -577,6 +577,12 @@ body {
   margin: 0 auto;
 }
 
+.site-footer {
+  margin-top: 4em;
+  padding: 1em 0;
+  text-align: center;
+}
+
 /* ==========================================================================
    Custom site styles
 
@@ -588,6 +594,15 @@ body {
 
 /* Mobile-first styles here
    ========================================================================== */
+
+.principal-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.principal-list_title {
+  font-size: 1em;
+}
 
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */

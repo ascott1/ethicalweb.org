@@ -4,7 +4,8 @@
       "postcss-import",
       "postcss-conditionals",
       "postcss-css-variables",
-      "postcss-custom-media"
+      "postcss-custom-media",
+      "postcss-nested"
     ],
     "input": "_css/base.css",
     "output": "css/style.css",

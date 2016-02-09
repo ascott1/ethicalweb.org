@@ -16,6 +16,7 @@
     "postcss-css-variables": "^0.5.1",
     "postcss-custom-media": "^5.0.0",
     "postcss-import": "^8.0.2",
+    "postcss-nested": "^1.0.0",
     "precss": "^1.4.0",
     "rimraf": "^2.5.1",
     "watch": "^0.17.1"

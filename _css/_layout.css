@@ -8,3 +8,9 @@ body {
   max-width: 720px;
   margin: 0 auto;
 }
+
+.site-footer {
+  margin-top: 4em;
+  padding: 1em 0;
+  text-align: center;
+}
