@@ -1,27 +1,12 @@
-# catriona
+# ethicalweb.org
 
-> A Jekyll starter kit
+Code and content for the ethicalweb.org web site.
 
-## Features
+## Content License
 
-- Automagic browser reloading with browser-sync
-- CSS compiling with PostCSS
-- CSS minification
+[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0)
 
-## TODO
-
-- Responsive boilerplate
-- Nice type defaults
-- Auto deploy to S3
-- Offline support with service workers
-- Favicons & touch icons
-
-
-## Credits
-
-Inspiration and CSS structure for working with PostCSS comes from [Mnml](https://github.com/mrmrs/mnml), licensed under the MIT License.
-
-## License
+## Code License
 
 The MIT License (MIT)
 
