@@ -1,0 +1,21 @@
+@import "./lib/_normalize";
+@import "./_variables";
+@import "./_media-queries";
+@import "./_typography";
+@import "./_layout";
+@import "./_custom";
+
+
+a:link,
+a:visited {
+  color: #265C83;
+}
+
+a:hover   {
+  color: #7FDBFF;
+}
+
+a:active  {
+  transition: color .3s;
+  color: #007BE6;
+}

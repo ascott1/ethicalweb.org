@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  padding: 0 1em;
+  max-width: 720px;
+  margin: 0 auto;
+}

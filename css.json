@@ -1,0 +1,15 @@
+{
+    "use": [
+      "autoprefixer",
+      "postcss-import",
+      "postcss-conditionals",
+      "postcss-css-variables",
+      "postcss-custom-media"
+    ],
+    "input": "_css/base.css",
+    "output": "css/style.css",
+    "local-plugins": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}

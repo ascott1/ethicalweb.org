@@ -1,0 +1,33 @@
+{
+  "name": "catriona",
+  "version": "0.1.0",
+  "description": "A Jekyll boilerplate",
+  "author": "Adam Scott",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "browser-sync": "^2.11.1",
+    "cssnano-cli": "^1.0.3",
+    "parallelshell": "^2.0.0",
+    "postcss": "^5.0.14",
+    "postcss-browser-reporter": "^0.4.0",
+    "postcss-cli": "^2.5.0",
+    "postcss-conditionals": "^2.0.1",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^8.0.2",
+    "precss": "^1.4.0",
+    "rimraf": "^2.5.1",
+    "watch": "^0.17.1"
+  },
+  "scripts": {
+    "clean": "rm -r _site/**",
+    "build": "npm run clean && npm run build:css && npm run && jekyll build && npm run minify:css",
+    "build:css": "postcss -c css.json --verbose _/css/*.css",
+    "watch:css": "postcss -c css.json --watch --verbose _/css/*.css",
+    "minify:css": "cssnano _site/css/style.css _site/css/style.css",
+    "sync": "browser-sync start --proxy localhost:4000 --files _site/**",
+    "start": "parallelshell 'jekyll serve' 'npm run watch:css'",
+    "deploy": "s3_website push"
+  }
+}
