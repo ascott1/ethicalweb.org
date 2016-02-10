@@ -27,7 +27,10 @@
    ========================================================================== */
 
 @media (--breakpoint-medium-and-up) {
-
+  .principal-list,
+  .principal-list_title {
+    font-size: 1.125em;
+  }
 }
 
 

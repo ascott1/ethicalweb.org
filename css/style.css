@@ -447,7 +447,7 @@ body {
   font-size: 100%;
   line-height: 1.3;
   color: #111111;
-  font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Avenir", "Avenir Next", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Avenir Next", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
 
 code,
@@ -637,7 +637,10 @@ body {
    ========================================================================== */
 
 @media screen and (min-width: 32em) {
-
+  .principal-list,
+  .principal-list_title {
+    font-size: 1.125em;
+  }
 }
 
 /* Medium - only targets 1st breakpoint. Styles
