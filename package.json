@@ -29,6 +29,6 @@
     "minify:css": "cssnano _site/css/style.css _site/css/style.css",
     "sync": "browser-sync start --proxy localhost:4000 --files _site/**",
     "start": "parallelshell 'jekyll serve' 'npm run watch:css'",
-    "deploy": "s3_website push"
+    "deploy": "npm run build && s3_website push"
   }
 }
