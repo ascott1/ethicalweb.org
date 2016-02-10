@@ -633,14 +633,16 @@ body {
   font-size: 1em;
 }
 
+.principal-list ul {
+  list-style: square;
+}
+
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */
 
 @media screen and (min-width: 32em) {
-  .principal-list,
-  .principal-list_title {
-    font-size: 1.125em;
-  }
+
+
 }
 
 /* Medium - only targets 1st breakpoint. Styles
