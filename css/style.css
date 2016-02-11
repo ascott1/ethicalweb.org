@@ -637,6 +637,11 @@ body {
   list-style: square;
 }
 
+.site-footer {
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */
 
