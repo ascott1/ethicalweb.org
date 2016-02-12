@@ -445,7 +445,7 @@ th {
 
 body {
   font-size: 100%;
-  line-height: 1.3;
+  line-height: 1.4;
   color: #111111;
   font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Avenir Next", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
@@ -501,6 +501,10 @@ h1 {
   /* 2x body copy size = 32px */
   line-height: 1.25;
   /* 45px / 36px */
+}
+
+.post-title {
+  font-size: 1.625em;
 }
 
 @media (min-width: 43.75em) {
