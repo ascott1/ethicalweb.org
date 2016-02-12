@@ -54,6 +54,10 @@ h1 {
   /* 45px / 36px */
 }
 
+.site-title {
+  margin-bottom: 16px;
+}
+
 .post-title {
   font-size: 1.625em;
 }

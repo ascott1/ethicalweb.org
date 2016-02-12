@@ -1,37 +1,9 @@
-/* ==========================================================================
-   Custom site styles
-
-   - Mobile first
-   - Medium and Large
-   - Medium
-   - Large
-   ========================================================================== */
-
-
-
 
 /* Mobile-first styles here
    ========================================================================== */
-.principal-list {
-  margin: 0;
-  padding-left: 20px;
-}
 
-.principal-list_title {
-  font-size: 1em;
-}
-
-.principal-list ul {
-  list-style: square;
-}
-
-.site-footer {
-  font-size: 0.875em;
-  line-height: 1.5;
-}
-
-.post-list,
-.post-list li {
+.site-nav_list,
+.site-nav_list li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -43,6 +15,21 @@
 
 @media (--breakpoint-medium-and-up) {
 
+  .site-nav_list li {
+    display: inline-block;
+  }
+
+  .site-nav_list li::after {
+    margin-left: 6px;
+    margin-right: 6px;
+    content: '•';
+  }
+
+  .site-nav_list li:last-child::after {
+    margin-left: 0;
+    margin-right: 0;
+    content: '';
+  }
 
 }
 

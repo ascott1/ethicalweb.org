@@ -503,6 +503,10 @@ h1 {
   /* 45px / 36px */
 }
 
+.site-title {
+  margin-bottom: 16px;
+}
+
 .post-title {
   font-size: 1.625em;
 }
@@ -616,6 +620,57 @@ body {
   padding: 1em 0;
 }
 
+.page-content {
+  margin-top: 32px;
+}
+
+/* Mobile-first styles here
+   ========================================================================== */
+
+.site-nav_list,
+.site-nav_list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Medium and Up - Targets everything larger than mobile
+   ========================================================================== */
+
+@media screen and (min-width: 32em) {
+
+  .site-nav_list li {
+    display: inline-block;
+  }
+
+  .site-nav_list li::after {
+    margin-left: 6px;
+    margin-right: 6px;
+    content: '•';
+  }
+
+  .site-nav_list li:last-child::after {
+    margin-left: 0;
+    margin-right: 0;
+    content: '';
+  }
+
+}
+
+/* Medium - only targets 1st breakpoint. Styles
+   ========================================================================== */
+
+@media screen and (min-width: 32em) and (max-width: 64em) {
+
+}
+
+/* Large - only targets 2nd breakpoint.
+   ========================================================================== */
+
+@media screen and (min-width: 64em) {
+
+}
+
 /* ==========================================================================
    Custom site styles
 
@@ -644,6 +699,13 @@ body {
 .site-footer {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.post-list,
+.post-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Medium and Up - Targets everything larger than mobile

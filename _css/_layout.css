@@ -13,3 +13,7 @@ body {
   margin-top: 4em;
   padding: 1em 0;
 }
+
+.page-content {
+  margin-top: 32px;
+}
