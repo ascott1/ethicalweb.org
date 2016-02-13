@@ -1,0 +1,17 @@
+Ethical Web Development is a project by:
+
+Adam Scott
+  - adamscott.website
+  - twitter.com/adamdscott
+
+Contributions and feedback have been provided by:
+
+- Kimberly Muñoz http://www.kimberlymunoz.com/
+- Dean Marano https://github.com/deanmarano
+- David Kennedy http://davidakennedy.com/
+- Dan Munz https://twitter.com/dan_munz
+- Sam Carrington https://twitter.com/gwawr_
+- Chris Contolini https://contolini.com/
+- Chuck Werner https://twitter.com/mistergone
+- Scott Cranfill http://www.scottcranfill.com/
+- Aaron Greenberg https://github.com/ajgreenb
