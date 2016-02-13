@@ -28,3 +28,4 @@ exclude:
   - npm-debug.log
   - README.md
   - LICENSE
+  - CONTRIBUTING.md
