@@ -2,6 +2,46 @@
 
 Code and content for the ethicalweb.org web site.
 
+## Running this site locally
+
+The site is built with [Jekyll] and includes a npm build process for front-end assets. Because of this, you will need Ruby and Node to run the site locally. If this is a barrier to entry, I'd encourage you to make recommendations for changes in the issues.
+
+[Jekyll]: https://jekyllrb.com/
+
+### Install
+
+Install Jekyll:
+
+```
+gem install jekyll
+```
+
+Fork, then clone the repo:
+
+```
+git clone git@github.com:your-username/ethicalweb.org.git
+```
+
+From the ethicalweb.org directory, install the npm dependencies:
+
+```
+npm install
+```
+
+## Running the site-title
+
+Running `npm start` will start Jekyll and watch the CSS for changes
+
+```
+npm start
+```
+
+
+## Code of Conduct
+
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
+[code-of-conduct]: http://todogroup.org/opencodeofconduct/#EthicalWeb/adamdscott@protonmail.com
+
 ## Content License
 
 [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0)
