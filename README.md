@@ -2,6 +2,8 @@
 
 Code and content for the ethicalweb.org web site.
 
+_Ethical Web Development_ is a series of free digital books, written by Adam Scott to be published by O'Reilly Media. They are being written as open source. The source for the books can be found at [https://github.com/ascott1/ethical-web-dev](https://github.com/ascott1/ethical-web-dev).
+
 ## Running this site locally
 
 The site is built with [Jekyll] and includes a npm build process for front-end assets. Because of this, you will need Ruby and Node to run the site locally. If this is a barrier to entry, I'd encourage you to make recommendations for changes in the issues.
