@@ -16,7 +16,7 @@ Make your change. To view the site locally, follow the install instructions in t
 npm start
 ```
 
-If you'd like to be added as a contributor to this project, update the [humans.txt](humans) file.
+If you'd like to be added as a contributor to this project, update the [humans.txt][humans] file.
 
 [humans]: https://github.com/ascott1/ethicalweb.org/blob/master/humans.txt
 
