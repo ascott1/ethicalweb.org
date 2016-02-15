@@ -15,3 +15,4 @@ Contributions and feedback have been provided by:
 - Chuck Werner https://twitter.com/mistergone
 - Scott Cranfill http://www.scottcranfill.com/
 - Aaron Greenberg https://github.com/ajgreenb
+- Eric Holscher http://ericholscher.com/
