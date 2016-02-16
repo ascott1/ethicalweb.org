@@ -2,6 +2,28 @@
 /* Mobile-first styles here
    ========================================================================== */
 
+ a:link {
+
+}
+
+.site-title a {
+  color: var(--black);
+  text-decoration: none;
+  border-bottom-style: none;
+  font-weight: 800;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--blue);
+}
+
+a:active  {
+  transition: color .3s;
+}
+
+
 .site-nav_list,
 .site-nav_list li {
   margin: 0;

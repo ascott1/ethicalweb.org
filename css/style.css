@@ -627,6 +627,33 @@ body {
 /* Mobile-first styles here
    ========================================================================== */
 
+a:link {
+
+}
+
+.site-title a {
+  color: #111111;
+  text-decoration: none;
+  border-bottom-style: none;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #0074D9;
+}
+
+a:focus {
+  color: #0074D9;
+}
+
+a:active {
+  color: #0074D9;
+}
+
+a:active  {
+  transition: color .3s;
+}
+
 .site-nav_list,
 .site-nav_list li {
   margin: 0;
@@ -743,4 +770,22 @@ img {
 
 @media screen and (min-width: 64em) {
 
+}
+
+.visuallyhidden {
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden:focus {
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
