@@ -25,7 +25,7 @@ exclude:
   - "node_modules"
   - "package.json"
   - "index.js"
-  - npm-debug.log
-  - README.md
-  - LICENSE
-  - CONTRIBUTING.md
+  - "npm-debug.log"
+  - "README.md"
+  - "LICENSE"
+  - "CONTRIBUTING.md"

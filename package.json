@@ -8,6 +8,7 @@
     "autoprefixer": "^6.3.1",
     "browser-sync": "^2.11.1",
     "cssnano-cli": "^1.0.3",
+    "imagemin-cli": "^2.1.0",
     "parallelshell": "^2.0.0",
     "postcss": "^5.0.14",
     "postcss-browser-reporter": "^0.4.0",
@@ -23,12 +24,14 @@
   },
   "scripts": {
     "clean": "rm -r _site/**",
-    "build": "npm run clean && npm run build:css && npm run && jekyll build && npm run minify:css",
+    "build": "npm run clean && npm run build:css && npm run minify:img && jekyll build && npm run minify:css",
     "build:css": "postcss -c css.json --verbose _/css/*.css",
     "watch:css": "postcss -c css.json --watch --verbose _/css/*.css",
     "minify:css": "cssnano _site/css/style.css _site/css/style.css",
+    "minify:img": "imagemin _img img",
+    "watch:img": "watch 'npm run minify:img' _img",
     "sync": "browser-sync start --proxy localhost:4000 --files _site/**",
-    "start": "parallelshell 'jekyll serve' 'npm run watch:css'",
+    "start": "parallelshell 'jekyll serve' 'npm run watch:css' 'npm run watch:img'",
     "deploy": "npm run build && s3_website push"
   }
 }
