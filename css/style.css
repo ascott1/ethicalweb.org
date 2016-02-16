@@ -746,7 +746,7 @@ img {
   margin-top: 3em;
 }
 
-.post-meta::before {
+.post-list .post-meta::before {
   content: '• ';
 }
 
