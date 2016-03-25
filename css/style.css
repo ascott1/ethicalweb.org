@@ -671,8 +671,8 @@ a:active  {
   }
 
   .site-nav_list li::after {
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: .5em;
+    margin-right: .5em;
     content: '•';
   }
 
