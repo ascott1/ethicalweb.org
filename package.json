@@ -26,7 +26,7 @@
   "scripts": {
     "clean": "rm -r _site/**",
     "sw": "sw-precache --config=sw-precache-config.json",
-    "build": "npm run clean && npm run build:css && npm run minify:img && npm run sw && jekyll build && npm run minify:css",
+    "build": "npm run clean && npm run build:css && npm run minify:img && jekyll build && npm run minify:css && npm run sw",
     "build:css": "postcss -c css.json --verbose _/css/*.css",
     "watch:css": "postcss -c css.json --watch --verbose _/css/*.css",
     "minify:css": "cssnano _site/css/style.css _site/css/style.css",
