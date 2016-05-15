@@ -2,6 +2,7 @@
   "staticFileGlobs": [
     "_site/css/**.css",
     "_site/**/*.html",
+    "_site/js/**.js",
     "_site/img/**.*"
   ],
   "stripPrefix": "_site/"
