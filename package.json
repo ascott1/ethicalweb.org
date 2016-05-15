@@ -20,11 +20,13 @@
     "postcss-nested": "^1.0.0",
     "precss": "^1.4.0",
     "rimraf": "^2.5.1",
+    "sw-precache": "^3.1.1",
     "watch": "^0.17.1"
   },
   "scripts": {
     "clean": "rm -r _site/**",
-    "build": "npm run clean && npm run build:css && npm run minify:img && jekyll build && npm run minify:css",
+    "sw": "sw-precache --config=sw-precache-config.json",
+    "build": "npm run clean && npm run build:css && npm run minify:img && npm run sw && jekyll build && npm run minify:css",
     "build:css": "postcss -c css.json --verbose _/css/*.css",
     "watch:css": "postcss -c css.json --watch --verbose _/css/*.css",
     "minify:css": "cssnano _site/css/style.css _site/css/style.css",

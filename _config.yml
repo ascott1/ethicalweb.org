@@ -29,3 +29,4 @@ exclude:
   - "README.md"
   - "LICENSE"
   - "CONTRIBUTING.md"
+  - "sw-precache-config.json"
