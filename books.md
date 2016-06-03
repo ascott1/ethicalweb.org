@@ -6,7 +6,7 @@ permalink: /books/
 
 _Ethical Web Development_ will be a series of short digital books that explore the ethics of practical development topics. The books will be released throughout 2016 and early 2017 as free downloads from [O'Reilly](http://www.oreilly.com/). They are being actively written [in the open on GitHub](https://github.com/ascott1/ethical-web-dev). I welcome contributions and comments.
 
-## [Building Web Apps that Work For Everyone](http://www.oreilly.com/web-platform/free/building-web-apps-for-everyone.csp)
+## Building Web Apps For Everyone
 
 - Progressive enhancement
 - Web accessibility
@@ -15,7 +15,10 @@ _Ethical Web Development_ will be a series of short digital books that explore t
   - Accessibility testing
 - Building inclusive forms
 
-## Building Web Apps that Work Everywhere
+[Download](http://www.oreilly.com/web-platform/free/building-web-apps-for-everyone.csp) `|` [Read Online](https://www.oreilly.com/learning/building-web-apps-for-everyone) `|` [View Source](https://github.com/ascott1/ethical-web-dev/tree/master/web-apps-for-everyone)
+
+
+## Building Web Apps That Work Everywhere
 
 - Responsive design
 - Web Performance
@@ -25,6 +28,8 @@ _Ethical Web Development_ will be a series of short digital books that explore t
 - Deep links
 - Offline
 - Building offline-first apps
+
+[View Source](https://github.com/ascott1/ethical-web-dev/tree/master/web-apps-that-work-everywhere)
 
 ## Building Web Apps that Respect A User's Privacy and Security
 
