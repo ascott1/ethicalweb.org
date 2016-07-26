@@ -445,7 +445,7 @@ th {
 
 body {
   font-size: 100%;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #111111;
   font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Avenir Next", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
@@ -750,10 +750,23 @@ img {
   content: '• ';
 }
 
+/* Small - Targets small screens
+   ========================================================================== */
+
+@media screen and (max-width: 32em) {
+  .cover-image img {
+    display: none;
+  }
+}
+
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */
 
 @media screen and (min-width: 32em) {
+  .cover-image img {
+    float: left;
+    padding-right: 20px;
+  }
 
 
 }

@@ -48,10 +48,23 @@ img {
 }
 
 
+/* Small - Targets small screens
+   ========================================================================== */
+
+@media (--breakpoint-small) {
+  .cover-image img {
+    display: none;
+  }
+}
+
 /* Medium and Up - Targets everything larger than mobile
    ========================================================================== */
 
 @media (--breakpoint-medium-and-up) {
+  .cover-image img {
+    float: left;
+    padding-right: 20px;
+  }
 
 
 }

@@ -1,7 +1,7 @@
 /* mobile first */
 body {
   font-size: 100%;
-  line-height: 1.4;
+  line-height: 1.6;
   color: var(--black);
   font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Avenir Next", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
