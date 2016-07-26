@@ -12,7 +12,7 @@ _Ethical Web Development_ will be a series of short digital books that explore t
   [![Building Web Apps That Work for Everyone book cover](/img/everyone.gif)](http://www.oreilly.com/web-platform/free/building-web-apps-for-everyone.csp)
 </div>
 
-A surprising number of users own outdated computers with older browsers, have slow connections, or struggle with physical disabilities that prevent them from accessing today’s sites and apps. How do you strike a balance in your design to include everyone?
+Many users own outdated computers with older browsers, have slow connections, or struggle with physical disabilities that prevent them from accessing today’s sites and apps. How do you strike a balance in your design to include everyone?
 
 This title explores best practices for using progressive enhancement, accessibility, and inclusive web forms in our applications.
 
