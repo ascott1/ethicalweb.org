@@ -21,6 +21,10 @@ a {
   font-weight: 600;
 }
 
+a img {
+  border-bottom-style: none;
+}
+
 a:hover,
 a:focus,
 a:active {
