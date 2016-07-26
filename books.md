@@ -29,7 +29,7 @@ _Ethical Web Development_ will be a series of short digital books that explore t
 - Offline
 - Building offline-first apps
 
-[View Source](https://github.com/ascott1/ethical-web-dev/tree/master/web-apps-that-work-everywhere)
+[Download](http://www.oreilly.com/web-platform/free/building-web-apps-that-work-everywhere.csp) `|` [View Source](https://github.com/ascott1/ethical-web-dev/tree/master/web-apps-that-work-everywhere)
 
 ## Building Web Apps that Respect A User's Privacy and Security
 
