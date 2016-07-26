@@ -21,6 +21,7 @@
     "precss": "^1.4.0",
     "rimraf": "^2.5.1",
     "sw-precache": "^3.2.0",
+    "uglify-js": "^2.7.0",
     "watch": "^0.17.1"
   },
   "scripts": {
@@ -28,11 +29,13 @@
     "sw": "sw-precache --config=sw-precache-config.json",
     "sw:rm": "rm -rf service-worker.js",
     "sw:cp": "cp service-worker.js _site/service-worker.js",
-    "build": "npm run build:css && npm run minify:img && jekyll build && npm run minify:css && npm run sw && npm run sw:cp",
+    "build": "jekyll build && npm run build:css && npm run minify && npm run sw && npm run sw:cp",
     "build:css": "postcss -c css.json --verbose _/css/*.css",
     "watch:css": "postcss -c css.json --watch --verbose _/css/*.css",
     "minify:css": "cssnano _site/css/style.css _site/css/style.css",
+    "minify:js": "uglifyjs _site/js/service-worker-registration.js --compress -o _site/js/service-worker-registration.js",
     "minify:img": "imagemin _img img",
+    "minify": "npm run minify:css && npm run minify:js && npm run minify:img",
     "watch:img": "watch 'npm run minify:img' _img",
     "sync": "browser-sync start --proxy localhost:4000 --files _site/**",
     "start": "npm run clean && parallelshell 'jekyll serve' 'npm run watch:css' 'npm run watch:img'",
