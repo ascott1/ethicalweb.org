@@ -44,32 +44,21 @@ As the Web continues to play an increasingly large role in our daily lives, thes
 
 This title will explore topics such as:
 
-- https
-  - Why https everywhere?
-  - How to implement https
 - Web tracking
-  - Introduction
-  - Detecting "do no track"
-  - Establishing a "do not track" policy
-- Secure user data
-- Data exporting
+- HTTPS
+- Securing user data
+- Data ownership
 
 20% of the proceeds from *Building Web Apps that Respect A User's Privacy and Security* will be donated to support the efforts of the [Electronic Frontier Foundation](https://www.eff.org/)
 
 ## Building Web Apps Together
 
-**Coming Winter 2016**
+**Coming Winter 2017**
 
 This title will explore topics such as:
 
 - Coding standards
-  - Linting
-  - Testing
-  - Continuous Integration
 - Open Source
-  - Contributing to open source
-  - Using an open source license
-  - Consuming open source code
 - Treating other developers with respect
 - Offering, following, and enforcing a code of conduct for open source projects
 
