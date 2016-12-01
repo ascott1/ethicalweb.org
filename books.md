@@ -41,7 +41,7 @@ As the Web continues to play an increasingly large role in our daily lives, thes
 ## Building Web Apps That Respect A User's Privacy and Security
 
 <div class="cover-image" markdown="1">
-  [![Building Web Apps That Respect A User's Privacy and Security book cover](/img/everywhere.gif)](http://www.oreilly.com/web-platform/free/building-web-apps-that-work-everywhere.csp)
+  [![Building Web Apps That Respect A User's Privacy and Security book cover](/img/privacy.jpg)](http://www.oreilly.com/web-platform/free/building-web-apps-that-work-everywhere.csp)
 </div>
 
 A recent survey from the Pew Research Center found that few Americans are confident about the security or privacy of their data—particularly when it comes to the use of online tools. Each of us now produces more data every day than people in earlier generations did throughout their lifetimes. Every time we click, tweet, or visit a site, we leave a digital trace. As a web developers, we represent the first line of defense in protecting our user’s data and privacy.
