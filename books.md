@@ -38,16 +38,17 @@ As the Web continues to play an increasingly large role in our daily lives, thes
 
 20% of the proceeds from *Building Web Apps that Work Everywhere* will be donated to support the efforts of the [World Wide Web Foundation](http://webfoundation.org/).
 
-## Building Web Apps that Respect A User's Privacy and Security
+## Building Web Apps That Respect A User's Privacy and Security
 
-**Coming Fall 2016**
+<div class="cover-image" markdown="1">
+  [![Building Web Apps That Respect A User's Privacy and Security book cover](/img/everywhere.gif)](http://www.oreilly.com/web-platform/free/building-web-apps-that-work-everywhere.csp)
+</div>
 
-This title will explore topics such as:
+A recent survey from the Pew Research Center found that few Americans are confident about the security or privacy of their data—particularly when it comes to the use of online tools. Each of us now produces more data every day than people in earlier generations did throughout their lifetimes. Every time we click, tweet, or visit a site, we leave a digital trace. As a web developers, we represent the first line of defense in protecting our user’s data and privacy.
 
-- Web tracking
-- HTTPS
-- Securing user data
-- Data ownership
+This title explores several techniques, tools, and best practices for developing and maintaining web apps that provide the privacy and security that every user needs—and deserves.
+
+[Download](http://www.oreilly.com/web-platform/free/building-web-apps-that-respect-user-privacy-and-security.csp) `|` [View Source](https://github.com/ascott1/ethical-web-dev/tree/master/web-apps-privacy-security)
 
 20% of the proceeds from *Building Web Apps that Respect A User's Privacy and Security* will be donated to support the efforts of the [Electronic Frontier Foundation](https://www.eff.org/)
 
