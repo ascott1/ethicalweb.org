@@ -52,15 +52,16 @@ This title explores several techniques, tools, and best practices for developing
 
 20% of the proceeds from *Building Web Apps that Respect A User's Privacy and Security* will be donated to support the efforts of the [Electronic Frontier Foundation](https://www.eff.org/)
 
-## Building Web Apps Together
+## Collaborative Web Development
 
-**Coming Winter 2017**
+<div class="cover-image" markdown="1">
+  [![Collaborative Web Development book cover](/img/collaborative.gif)](https://conferences.oreilly.com/fluent/fl-ca/public/content/collaborative-web-development)
+</div>
 
-This title will explore topics such as:
+Having learned our craft as a thought-intensive, independent activity, many of us begin our career by working as a team of one. Yet web development is a highly social endeavor where developers collaborate with one another to build complex systems. This title provides guidelines for working effectively with other developers, particularly when it comes to making compromises, writing documentation, and interacting with open source in ways you can't achieve as a solo learner.
 
-- Coding standards
-- Open Source
-- Treating other developers with respect
-- Offering, following, and enforcing a code of conduct for open source projects
+_Collaborative Web Development_ explores widely accepted methods for writing quality code, contributing work to open source, improving  documentation practices, and—perhaps most critical—respecting and involving every member of your team. As the final part of the series on ethical web development, this book emphasizes how empathetic development practices like these will help you create empathetic products.
 
-20% of the proceeds from *Building Web Apps Together* will be donated to support the efforts of [Mozilla](https://www.mozilla.org/en-US/) and [Girl Develop It](https://www.girldevelopit.com/).
+[Download](https://conferences.oreilly.com/fluent/fl-ca/public/content/collaborative-web-development) `|` [View Source](https://github.com/ascott1/ethical-web-dev/tree/master/building-web-apps-together)
+
+20% of the proceeds from *Collaborative Web Development* will be donated to support the efforts of [Mozilla](https://www.mozilla.org/en-US/) and [Girl Develop It](https://www.girldevelopit.com/).
