@@ -1,7 +1,6 @@
 Ethical Web Development is a project by:
 
 Adam Scott
-  - adamscott.website
   - twitter.com/adamdscott
 
 Contributions and feedback have been provided by:
