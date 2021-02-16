@@ -1,7 +1,11 @@
 _site
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 s3_website.yml
 node_modules
 img
 service-worker.js
+
+# Local Netlify folder
+.netlify
