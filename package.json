@@ -39,6 +39,7 @@
     "watch:img": "watch 'npm run minify:img' _img",
     "sync": "browser-sync start --proxy localhost:4000 --files _site/**",
     "start": "npm run clean && parallelshell 'jekyll serve' 'npm run watch:css' 'npm run watch:img'",
-    "deploy": "npm run clean && npm run build && s3_website push"
+    "deploy": "npm run clean && npm run build && s3_website push",
+    "deploy:netlify": "npm run clean && npm run build"
   }
 }
