@@ -10,7 +10,7 @@
     "cssnano-cli": "^1.0.3",
     "imagemin-cli": "^2.1.0",
     "parallelshell": "^2.0.0",
-    "postcss": "^5.0.14",
+    "postcss": "^8.4.31",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cli": "^2.5.0",
     "postcss-conditionals": "^2.0.1",
